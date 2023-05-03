@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Person from '../components/Person';
+---
+
+<Layout title="Hello World">
+	<main>
+		<h1>Hello World</h1>
+		<Person client:load />
+	</main>
+</Layout>
